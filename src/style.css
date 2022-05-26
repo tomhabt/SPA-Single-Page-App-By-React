@@ -4,6 +4,23 @@
 
 body {
   margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #74757d;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+  justify-content: space-between;
+}
+
+nav > h3 {
+  Margin:0;
+  margin-right: auto;
+  color:#61dafb;
 }
 
 .nav-items {
@@ -12,17 +29,29 @@ body {
 }
 .nav-items li {
   padding: 10px;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #21222A;
-  padding: 30px 25px;
-  height: 90px;
+  color:#61dafb;
 }
 
 .logo {
   width: 100px;
+}
+
+.main {
+  padding: 120px 27px;
+  color: aliceblue;
+  font-size: 25px;
+  background-image: url(./images/Profile_pic.jpeg);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position-x: center ;
+  background-position-y: 5% ;
+}
+
+.main > ul  {
+  line-height: 40px;
+  padding-block: 19px;
+}
+
+li::marker  {
+ font-size: 2.5rem;
 }

@@ -6,11 +6,12 @@ function Navbar() {
     return (
         <div>
             <nav className="nav">
-            <img 
-                src={logo} 
-                className="logo"
-                alt="logo">
-            </img>
+                <img 
+                    src={logo} 
+                    className="logo"
+                    alt="logo"
+                />
+                <h3>ReactFacts</h3>
                 <ul className="nav-items">
                     <li>Pricing</li>
                     <li>About</li>
